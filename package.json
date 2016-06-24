@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/qysongyang/util#readme",
   "dependencies": {
+    "lodash": "^4.13.1",
     "node-xlsx": "^0.7.1"
   }
 }
