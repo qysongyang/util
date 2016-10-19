@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>真视界，真睛彩</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="renderer" content="webkit">
+    <meta name = "format-detection" content = "telephone=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <style>
+        .buy {
+            position:fixed;
+            right:0px;
+            top:50%;
+            margin-top:-70px;
+            width:40px;
+            z-index:9;
+            cursor:pointer;
+        }
+        .pagewrapper{
+            width: 100%;
+            border: 0;
+            margin: 0 auto;
+        }
+        .img {
+            width: 99%;
+        }
+    </style>
+    <script src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+</head>
+<body>
+<div class="pagewrapper">
+    <div class="img">
+        <p align="center"><img src="./images/01.png" width="100%" /></P>
+    </div>
+    <div name="go_buy" class="img">
+        <p align="center"><img src="./images/go_buy.png" width="100%" /></P>
+    </div>
+    <div class="img">
+        <p align="center"><img src="./images/02.png" width="100%"/></p>
+    </div>
+    <div class="img">
+        <p align="center"><img src="./images/03.png" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/04.gif" width="100%"/></p>
+    </div>
+    <div class="img">
+        <p align="center"><img src="./images/05.gif" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/06.png" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/06.gif" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/07.png" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/07.gif" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/08.png" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/09.png" width="100%"/></p>
+    </div>
+    <div class="img">
+        <p align="center"><img src="./images/10.png" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/11.png" width="100%"/></p>
+    </div>
+
+    <div class="img">
+        <p align="center"><img src="./images/12.png" width="100%"/></p>
+    </div>
+    <div class="img">
+        <p align="center"><img src="./images/16.png" width="100%"/></p>
+    </div>
+    <div name="go_buy" class="img">
+        <p align="center"><img src="./images/17.png" width="100%"border="0"/> </p>
+    </div>
+</div>
+<script>
+    if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {
+            FastClick.attach(document.body);
+        }, false);
+    }
+    var goBuyBtns = document.querySelectorAll('[name="go_buy"]');
+    for(var i=0, len = goBuyBtns.length;i < len;i++){
+        goBuyBtns[i].addEventListener('click', function () {
+            window.location.href = 'http://wock.ishcloud.com/o2o/iptvproduct/wap/index_wap.jsp';
+        });
+    }
+</script>
+</body>
+</html>

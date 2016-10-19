@@ -1,0 +1,47 @@
+#pagewrap {
+    width: 960px;
+}
+#header {
+    height: 180px;
+}
+#content {
+    width: 600px;
+    float: left;
+}
+#sidebar {
+    width: 300px;
+    float: right;
+}
+#footer {
+    clear: both;
+}
+
+@media screen and (max-width: 980px){
+    #pagewrap {
+        width: 95%;
+    }
+    #content {
+        width: 60%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 700px){
+    #content {
+        width: auto;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+}
+@media screen and (max-width: 480px){
+    h1 {
+        font-size: 0.8rem;
+    }
+    #sidebar {
+        display: none;
+    }
+}
